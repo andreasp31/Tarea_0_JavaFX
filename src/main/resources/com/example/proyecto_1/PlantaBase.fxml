@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<Pane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      prefHeight="270.0" prefWidth="558.0" styleClass="rectangulo" stylesheets="@style.css">
+    <children>
+        <Pane layoutX="26.0" layoutY="41.0" prefHeight="215.0" prefWidth="213.0" styleClass="rectangulo4" stylesheets="@style.css">
+            <children>
+                <ImageView fx:id="imagenPlanta" fitHeight="263.0" fitWidth="217.0" layoutY="-49.0"
+                           pickOnBounds="true" preserveRatio="true">
+
+                <image>
+                    <Image url="@images/360851087_11432021 1.png" />
+                </image>
+                </ImageView>
+            </children>
+        </Pane>
+
+        <Label fx:id="textoNombre" layoutX="266.0" layoutY="45.0" text="Nombre" style="-fx-text-fill: #883f4f;">
+            <font>
+                <Font name="Poppins Medium" size="35.0" />
+            </font>
+        </Label>
+
+        <Label fx:id="textoFamilia" layoutX="271.0" layoutY="95.0" text="Familia" style="-fx-text-fill: #505050;">
+            <font>
+                <Font name="Poppins Light" size="20.0" />
+            </font>
+        </Label>
+
+        <Label fx:id="textoLuz" layoutX="274.0" layoutY="135.0" text="Luz" style="-fx-text-fill: #505050;">
+            <font>
+                <Font name="Poppins Light" size="20.0" />
+            </font>
+        </Label>
+
+        <Label fx:id="textoRiego" layoutX="274.0" layoutY="175.0" text="Riego" style="-fx-text-fill: #505050;">
+            <font>
+                <Font name="Poppins Light" size="20.0" />
+            </font>
+        </Label>
+
+        <Label fx:id="textoUbicacion" layoutX="274.0" layoutY="215.0" text="Ubicación" style="-fx-text-fill: #505050;">
+            <font>
+                <Font name="Poppins Light" size="20.0" />
+            </font>
+        </Label>
+    </children>
+</Pane>

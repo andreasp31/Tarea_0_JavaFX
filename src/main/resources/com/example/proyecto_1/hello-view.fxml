@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto_1.HelloController">
+   <children>
+      <Text fill="#332255" layoutX="642.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VERÍN’S GARDEN" textAlignment="CENTER">
+         <font>
+            <Font name="Poppins SemiBold" size="80.0" />
+         </font>
+      </Text>
+      <Text fill="#505050" layoutX="866.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Floristería" textAlignment="CENTER">
+         <font>
+            <Font name="Poppins Light" size="35.0" />
+         </font>
+      </Text>
+      <Pane layoutX="479.0" layoutY="232.0" prefHeight="484.0" prefWidth="960.0" styleClass="rectangulo" stylesheets="@style.css" />
+      <ImageView fitHeight="1193.0" fitWidth="2008.0" layoutX="-86.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true" styleClass="foto1">
+         <image>
+            <Image url="@images/11453221.png" />
+         </image></ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="1630.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Minus_circle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="1712.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Plus_circle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="1793.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/X_circle.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="891.0" layoutY="527.0" mnemonicParsing="false" onAction="#NuevaVentana1" styleClass="button1" text="Iniciar" textFill="#332255">
+         <font>
+            <Font name="Poppins Medium" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
